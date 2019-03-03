@@ -1,3 +1,3 @@
 import Reactotron from 'reactotron-react-native';
 
-export const Log = content => Reactotron.log(content);
+export default (content) => Reactotron.log(content);
